@@ -1,5 +1,3 @@
-
-
 width = int(input("Enter width: "))
 length = int(input("Enter height: "))
 
