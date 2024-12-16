@@ -1,0 +1,93 @@
+LOCUS       XM_009763875            1806 bp    mRNA    linear   PLN 05-DEC-2024
+DEFINITION  PREDICTED: Nicotiana sylvestris agamous-like MADS-box protein FUL-L
+            (MBP10), transcript variant X2, mRNA.
+ACCESSION   XM_009763875
+VERSION     XM_009763875.2
+DBLINK      BioProject: PRJNA257217
+KEYWORDS    RefSeq.
+SOURCE      Nicotiana sylvestris (wood tobacco)
+  ORGANISM  Nicotiana sylvestris
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; asterids; lamiids; Solanales; Solanaceae;
+            Nicotianoideae; Nicotianeae; Nicotiana.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_091058) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            On Dec 5, 2024 this sequence version replaced XM_009763875.1.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI RefSeq
+            Annotation Status           :: Full annotation
+            Annotation Name             :: GCF_000393655.2-RS_2024_11
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 10.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon;
+                                           cmsearch; tRNAscan-SE
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            Annotation Date             :: 11/15/2024
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1806
+                     /organism="Nicotiana sylvestris"
+                     /mol_type="mRNA"
+                     /bio_material="USDA:TW 136"
+                     /db_xref="taxon:4096"
+                     /chromosome="2"
+                     /tissue_type="leaf"
+     gene            1..1806
+                     /gene="MBP10"
+                     /note="agamous-like MADS-box protein FUL-L; Derived by
+                     automated computational analysis using gene prediction
+                     method: Gnomon. Supporting evidence includes similarity
+                     to: 2 Proteins"
+                     /db_xref="GeneID:104214229"
+     CDS             756..1316
+                     /gene="MBP10"
+                     /codon_start=1
+                     /product="truncated transcription factor CAULIFLOWER A
+                     isoform X1"
+                     /protein_id="XP_009762177.2"
+                     /db_xref="GeneID:104214229"
+                     /translation="MKRIENKISRQVTFSKRRLGLLKKTHEISVLCDADVALIVFSAK
+                     GKLFEYSTESSMESILERYESYSYAERKLNANDSEPKGLSVNIQEKPKLMSRIELLQR
+                     NIRHYMGEDLDSFCLREFHGLEQQLDTALKRIRARKNQLMHESISQSQRKVNYIKISR
+                     ANLKQGLAYEKQRVCHHQKRGICWPK"
+ORIGIN      
+        1 tcaccctata tatattaatt ctcccatata cttagcttcc ttattactat attactttaa
+       61 tcttcttctc taactgctcg actcctaaaa cgcacaaaga ttgcaactat atgtaccacc
+      121 cgtactccaa tataacatat ccgcagattc atcagatctt aaaggctgtg agttttaaca
+      181 ttgtgtttct ctagactttt ttttttctcc acatatctat ccttatatat gggagctacg
+      241 tttaaagaag gggttcgatt gaattctctt aattagaaaa ttatactaga gtagaaatat
+      301 acatacatat atatatatat atatatatat atatttgtat aacattcttg aattctctta
+      361 acatagagga aggttttatt gtttcgacaa aggttgttca aaaattttca gattataatt
+      421 tcaggtaatt tgtcattttt gctcttttga cttgttagat ttcatgactt ctccattgat
+      481 atatatatat atatataggt tttgtgaagt gactttagat ccgcctcgga tggggagggg
+      541 tgagaggcgg atgtagtgta atgactacgg gatcaagtag acccataact tttgacgcgg
+      601 agtaaaaaat tatatttaaa attttattaa aattgcaaaa ataatatata tgaacccata
+      661 actttaaaaa tataatgggt tcaatattaa aaacattaaa attgaaccta taaaatttaa
+      721 attctggatc cacttctggg aggggtaggg ttgagatgaa gcggatcgag aacaagatta
+      781 gtaggcaggt cactttctca aagagaaggt taggtttgtt gaagaagact cacgagatct
+      841 ccgtcttgtg tgatgctgat gttgctttga ttgttttctc tgccaaaggc aagctctttg
+      901 agtactccac tgaatccagc atggaaagta tcctcgaaag atacgaaagt tactcatatg
+      961 ctgagaggaa gttgaatgca aatgactctg aacctaaggg tttatccgtg aacattcaag
+     1021 aaaaaccaaa gctcatgtca aggattgaac ttctacaaag aaatataagg cattatatgg
+     1081 gagaggatct ggattccttc tgtctgcgag agtttcatgg tttagagcaa caacttgata
+     1141 cagctttgaa gcgaatacgc gccaggaaga accaactgat gcatgagtcc atttcccagt
+     1201 cgcagagaaa ggtcaattat ataaaaatat ctcgtgctaa tttgaaacag ggcctcgctt
+     1261 atgaaaagca aagagtttgt catcatcaaa aaaggggaat ttgttggccc aagtgaagtt
+     1321 ggttttgaag attgacaaag gaactcaagc aagaatcagg acgatccaca atgtacacat
+     1381 acacgagcga aattaagcat aagggatgaa cgcacgcaca aaagctgaag ttaaacgtga
+     1441 gttgagagca aaatagcaag gcattttgca agcaattctt gtgtgattca agtgtgcgaa
+     1501 catgaagcta catgaaccag atagaagaac cagctccaag tgtatgtctt ttattctagt
+     1561 tcaattgtaa taggtgtttt tatattgtat ctttgatcaa ctttatctag aagcaattgt
+     1621 aataggtact ttgattattc aagttagagt taacttgaag ttgtcgcaat agttagaggc
+     1681 tggttgccac aacgggatta gaggtaatct ttaggtttac aaagagtctt tgtaaatgct
+     1741 attttggctt attgatttag tgaagtgttg aggaaaatcc tactgagtag taggtcgtgg
+     1801 gttttt
+//
+

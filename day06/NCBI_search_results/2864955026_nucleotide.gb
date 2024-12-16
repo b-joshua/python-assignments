@@ -1,0 +1,81 @@
+LOCUS       XM_009791145             786 bp    mRNA    linear   PLN 05-DEC-2024
+DEFINITION  PREDICTED: Nicotiana sylvestris truncated transcription factor
+            CAULIFLOWER D-like (LOC104237068), mRNA.
+ACCESSION   XM_009791145
+VERSION     XM_009791145.2
+DBLINK      BioProject: PRJNA257217
+KEYWORDS    RefSeq; includes ab initio.
+SOURCE      Nicotiana sylvestris (wood tobacco)
+  ORGANISM  Nicotiana sylvestris
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; asterids; lamiids; Solanales; Solanaceae;
+            Nicotianoideae; Nicotianeae; Nicotiana.
+COMMENT     MODEL REFSEQ:  This record is predicted by automated computational
+            analysis. This record is derived from a genomic sequence
+            (NC_091059) annotated using gene prediction method: Gnomon.
+            Also see:
+                Documentation of NCBI's Annotation Process
+            
+            On Dec 5, 2024 this sequence version replaced XM_009791145.1.
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider         :: NCBI RefSeq
+            Annotation Status           :: Full annotation
+            Annotation Name             :: GCF_000393655.2-RS_2024_11
+            Annotation Pipeline         :: NCBI eukaryotic genome annotation
+                                           pipeline
+            Annotation Software Version :: 10.3
+            Annotation Method           :: Best-placed RefSeq; Gnomon;
+                                           cmsearch; tRNAscan-SE
+            Features Annotated          :: Gene; mRNA; CDS; ncRNA
+            Annotation Date             :: 11/15/2024
+            ##Genome-Annotation-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            ab initio :: 100% of CDS bases
+            ##RefSeq-Attributes-END##
+FEATURES             Location/Qualifiers
+     source          1..786
+                     /organism="Nicotiana sylvestris"
+                     /mol_type="mRNA"
+                     /bio_material="USDA:TW 136"
+                     /db_xref="taxon:4096"
+                     /chromosome="3"
+                     /tissue_type="leaf"
+     gene            1..786
+                     /gene="LOC104237068"
+                     /note="truncated transcription factor CAULIFLOWER D-like;
+                     Derived by automated computational analysis using gene
+                     prediction method: Gnomon. Supporting evidence includes
+                     similarity to: 11 Proteins"
+                     /db_xref="GeneID:104237068"
+     CDS             1..786
+                     /gene="LOC104237068"
+                     /codon_start=1
+                     /product="truncated transcription factor CAULIFLOWER
+                     D-like"
+                     /protein_id="XP_009789447.1"
+                     /db_xref="GeneID:104237068"
+                     /translation="MGRSKIKMELIQDHKKRKSTFQKRKACLIKKISELSILCDIKAC
+                     MIINEGNNYEVISPQIWPNDPNEVQELINFYKNQPKRENSLCSFLENEKKKAEIKMEK
+                     LKNKSKTEKYPTWDSRFNYLSEKELRNLAGVLEKKMENAKGKSEFLKSSRNINQDSNQ
+                     EIWDYPELMDNFNQSNTQPISYMDNQFFQELTADNVNSMGILDNIDLNVGDYEFGNSD
+                     YMKIEAEEWLVNNGIIGSSSRTQPMELNQYPFIYTGSTQMPYG"
+ORIGIN      
+        1 atgggaagat caaaaatcaa gatggaactt attcaagatc acaagaaaag gaagtccact
+       61 ttccaaaaaa ggaaagcttg cttaatcaag aaaatctcag agctctcaat actttgtgat
+      121 atcaaagcat gcatgatcat aaacgaagga aataattatg aagttatttc tcctcaaatc
+      181 tggccaaatg atccaaacga agttcaagag ctaataaatt tctacaaaaa ccaaccaaaa
+      241 agagaaaaca gtttgtgtag cttcttggaa aatgaaaaga aaaaggctga gattaaaatg
+      301 gaaaagttga agaataaaag caagacagaa aaatacccaa cttgggattc aagattcaac
+      361 tatttatctg aaaaagaatt aagaaatctt gctggggttc ttgagaaaaa gatggagaat
+      421 gcaaagggaa aatctgaatt cttgaaaagt agtaggaata ttaatcaaga ttcaaatcaa
+      481 gaaatttggg actatcctga attaatggac aatttcaacc aaagtaatac acagcctatt
+      541 tcttatatgg ataaccagtt ttttcaagaa ttgacagctg ataatgtgaa ttcaatggga
+      601 attttggata atattgatct taatgttggt gattatgaat ttggaaattc agattatatg
+      661 aaaattgagg cagaagaatg gttggtgaat aatggtatta ttggttcaag ttcaagaacg
+      721 cagcctatgg agttgaatca gtaccctttc atatacactg gctctactca aatgccttat
+      781 ggataa
+//
+

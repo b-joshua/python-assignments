@@ -1,0 +1,108 @@
+LOCUS       NM_001302568             985 bp    mRNA    linear   PLN 09-DEC-2024
+DEFINITION  Nicotiana sylvestris truncated transcription factor CAULIFLOWER
+            A-like (LOC104228130), mRNA.
+ACCESSION   NM_001302568
+VERSION     NM_001302568.1
+KEYWORDS    RefSeq.
+SOURCE      Nicotiana sylvestris (wood tobacco)
+  ORGANISM  Nicotiana sylvestris
+            Eukaryota; Viridiplantae; Streptophyta; Embryophyta; Tracheophyta;
+            Spermatophyta; Magnoliopsida; eudicotyledons; Gunneridae;
+            Pentapetalae; asterids; lamiids; Solanales; Solanaceae;
+            Nicotianoideae; Nicotianeae; Nicotiana.
+REFERENCE   1  (bases 1 to 985)
+  AUTHORS   Jang,S., Hong,M.Y., Chung,Y.Y. and An,G.
+  TITLE     Ectopic expression of tobacco MADS genes modulates flowering time
+            and plant architecture
+  JOURNAL   Mol Cells 9 (6), 576-586 (1999)
+   PUBMED   10672923
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence was derived from AF068726.1.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: AF068726.1 [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA1904866, SAMEA1904874
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..985
+                     /organism="Nicotiana sylvestris"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:4096"
+                     /chromosome="10"
+                     /map="10"
+     gene            1..985
+                     /gene="LOC104228130"
+                     /gene_synonym="NsMADS2"
+                     /note="truncated transcription factor CAULIFLOWER A-like"
+                     /db_xref="GeneID:104228130"
+     exon            1..190
+                     /gene="LOC104228130"
+                     /gene_synonym="NsMADS2"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             6..734
+                     /gene="LOC104228130"
+                     /gene_synonym="NsMADS2"
+                     /note="MADS-box protein MADS2"
+                     /codon_start=1
+                     /product="truncated transcription factor CAULIFLOWER
+                     A-like"
+                     /protein_id="NP_001289497.1"
+                     /db_xref="GeneID:104228130"
+                     /translation="MGRGKVQLRRIENKINRQVTFSKRRGGLVKKALEISVLCDAEVA
+                     LIVFSHKGKIFEYSSDSCMEQILERYERYSYTERRLLASNSESSVQENWSLEYAKLKA
+                     KIDLQQRNHKHYMGEDLDSLSLKDLQNLEQQLDTSLKLIRSRKNQLMHESISMLQKKE
+                     KAIQEENNMLSKKIKEKDNTVGQQVEWHQQNQVPTSASFLLQPHPCLNIGGNYQEERE
+                     ERRRNELDLNLDSLYPCHMGCFAT"
+     exon            191..269
+                     /gene="LOC104228130"
+                     /gene_synonym="NsMADS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            270..340
+                     /gene="LOC104228130"
+                     /gene_synonym="NsMADS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            341..440
+                     /gene="LOC104228130"
+                     /gene_synonym="NsMADS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            441..482
+                     /gene="LOC104228130"
+                     /gene_synonym="NsMADS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            483..524
+                     /gene="LOC104228130"
+                     /gene_synonym="NsMADS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            525..634
+                     /gene="LOC104228130"
+                     /gene_synonym="NsMADS2"
+                     /inference="alignment:Splign:2.1.0"
+     exon            635..980
+                     /gene="LOC104228130"
+                     /gene_synonym="NsMADS2"
+                     /inference="alignment:Splign:2.1.0"
+     polyA_site      979
+                     /gene="LOC104228130"
+                     /gene_synonym="NsMADS2"
+ORIGIN      
+        1 gaagaatggg gagagggaaa gtgcaattaa ggcgtataga aaataagatt aacaggcaag
+       61 tgacattttc aaagaggaga ggaggtttag tgaagaaagc acttgaaatt tcagtgcttt
+      121 gtgatgctga agttgcttta attgtttttt ctcataaggg aaagatcttt gagtactctt
+      181 ctgattcttg tatggaacag attcttgaac gatatgagag atactcatac acagagagac
+      241 gtttgcttgc aagtaattct gaatcttcgg tgcaggaaaa ctggagcctg gaatatgcta
+      301 aactcaaggc taagattgat ctccaacaaa ggaaccacaa gcattatatg ggagaagatc
+      361 ttgactcatt gagcctaaag gacctgcaaa acttggaaca acaacttgat acttctctta
+      421 agcttattcg atcaagaaag aaccaactca tgcatgagtc aatctctatg ctacagaaaa
+      481 aggaaaaggc aatccaggag gagaataaca tgctatccaa gaagattaag gagaaggata
+      541 acacagtagg gcagcaagtt gaatggcatc agcaaaatca agttcctact tcggcatctt
+      601 tcctcctaca accacatcca tgcctaaata ttggaggtaa ttaccaagag gaacgagaag
+      661 aacgaaggag gaatgagctt gacctaaatc ttgattcctt gtatccatgc catatgggat
+      721 gctttgccac atgaataaac aactttatat gttgcatctg aaggaatgtc cttttgctgg
+      781 agttcaagtt ttccaattct gtgttctcgt ctgctttatg tggaggaaaa taagatttta
+      841 agccttctct tgggaaattc ttaatattgt gtgtctttat attaatatat atataggacc
+      901 ttattgtctt tctttttata tggtgaagaa tgttaatttc ctaaccttca taaatggaag
+      961 aggaggtcca tttgttggca aaaaa
+//
+
