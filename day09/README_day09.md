@@ -9,7 +9,7 @@ The DNA Sequence Analyzer is a Python program that processes DNA sequences to ex
 
 ## **Input Format**
 
-### **Fasta file**
+### **Input file**
 - The program accepts DNA sequence files in **FASTA** or **GenBank** format.
 - Example FASTA file (`example.fasta`):
   ```
