@@ -2,12 +2,14 @@
 # DNA Sequence Analyzer
 
 The DNA Sequence Analyzer is a Python program that processes DNA sequences to extract specific features. It supports two main analyses:
-1. **Finding the longest duplicate subsequence** within the DNA sequence.
-2. **Identifying the longest open reading frame (ORF)**, which is a sequence starting with a start codon (`ATG`) and ending with a stop codon (`TAA`, `TAG`, or `TGA`) in the same reading frame.
+1. Finding the longest duplicate subsequence within the DNA sequence.
+2. Identifying the longest open reading frame (ORF), which is a sequence starting with a start codon (`ATG`) and ending with a stop codon (`TAA`, `TAG`, or `TGA`) in the same reading frame.
 
 ---
 
-### **Input Format**
+## **Input Format**
+
+### **Fasta file**
 - The program accepts DNA sequence files in **FASTA** or **GenBank** format.
 - Example FASTA file (`example.fasta`):
   ```
@@ -15,24 +17,9 @@ The DNA Sequence Analyzer is a Python program that processes DNA sequences to ex
   ATGAAATTTTAAATGTAGATGCCCTGAATCGATC
   ```
 
-### **Running the Program**
-The program is executed from the command line and allows the user to choose one or both analyses.
-
-#### **Command-Line Options**
+### **Command-Line Options**
 - `--duplicate`: Find the longest duplicate subsequence.
 - `--orf`: Find the longest open reading frame (ORF).
-
----
-
-## **Example Input and Output**
-
-### **Input File (`example.fasta`)**:
-```
->Example DNA Sequence
-ATGAAATTTTAAATGTAGATGCCCTGAATCGATC
-```
-
-### **Command**:
 ```bash
 python analyze.py example.fasta --duplicate --orf
 ```
